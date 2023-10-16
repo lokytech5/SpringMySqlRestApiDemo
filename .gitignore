@@ -1,0 +1,20 @@
+# Docker #
+##########
+*.log
+*.env  # If you're using environment variable files
+db_data/*  # Local data from your MySQL container
+
+# Java and Maven #
+##################
+/target/  # Compiled binaries and other Maven outputs
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+# General #
+###########
+.DS_Store  # For Mac users
+*.swp      # For Vim users
+
